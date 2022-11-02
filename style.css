@@ -1,0 +1,82 @@
+
+body {
+  background: #F5F5F5;
+  font-family: 'Noto Sans', sans-serif;
+  color: #31326F;
+  font-size: 22px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+h1, h2, h3{
+  color: #EF4B4B;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+}
+h2{
+  color: #df5f5f;
+}
+a {
+  color: #7ECFC0;
+  text-decoration: none;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+}
+
+a:hover {
+  color:#35B0AB ;
+}
+  .container{
+    text-align: center;
+  }
+
+  .countries{
+    width: 0%;
+    margin: auto;
+    display:inline;
+    list-style: none;
+  }
+  ul.horizontal-list {
+    display: flex;
+    justify-content:space-around;
+    list-style-type:none;
+  }
+
+  ul.links{
+    font-size: 50px;
+    display:inline;
+    list-style: none;
+  }
+
+  .card{
+    text-align: center;
+    border: 1px solid rgb(172, 175, 172);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 5px 10px #888888
+  }
+  .pic{
+    border-radius: 200px;
+  }
+
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
